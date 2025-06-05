@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
     <header>
-        <h1>reu2025-cybersec-GiselleRoman</h1>
+        <h1>reu2025-cybersec-Roman</h1>
     </header>
     <section>
                 <h2>Project Title</h2>
