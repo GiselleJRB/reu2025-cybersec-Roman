@@ -46,5 +46,11 @@ This research addresses the urgent need to secure dynamic robotic behavior by de
             <li>...</li>
         </ul>
     </section>
+    <section>
+        <h2>Setup Intructions</h2>
+          <ul>
+            <li>...</li>
+        </ul>
+    </section>
 </body>
 </html>
