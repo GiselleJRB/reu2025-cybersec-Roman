@@ -13,7 +13,7 @@
     <section>
         <h2>Student Name</h2>
         <ul>
-            <li><strong>Giselle Roman</strong></li>
+            <li>Giselle Roman</li>
         </ul>
     </section>
     <section>
