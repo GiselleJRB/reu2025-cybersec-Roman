@@ -25,7 +25,7 @@
     <section>
         <h2>Project Summary</h2>
         <p>
-            ...
+            As autonomous robots continue to operate in complex and unpredictable environments, their ability to adapt in real-time scenarios is important. By exploring learning-based methods like reinforcement and imitation learning, this project aims to optimize robotic behavior by developing both adaptive learning and highly secure cybersecurity.
         </p>
     </section>
         <section>
