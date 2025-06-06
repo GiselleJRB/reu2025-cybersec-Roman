@@ -43,7 +43,7 @@
     <section>
         <h2>Setup Intructions</h2>
           <ul>
-            <li>...</li>
+            <li>TBH</li>
         </ul>
     </section>
 </body>
