@@ -29,16 +29,15 @@
         </p>
     </section>
         <section>
-        <h2>Tools</h2>
-          <ul>
-            <li>...</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Models</h2>
-          <ul>
-            <li>...</li>
-        </ul>
+        <h2>Tools and Models</h2>
+            <p>
+            The tools and models I plan to use:
+        </p>
+          <ul><li>Hugging Face: Modeling and testing generalization</li></ul>
+            <ul><li>Perspective API: trust-aware feedback</li></ul>
+            <ul><li>OpenAI Gym: simulation environments for RL experiments</li></ul>
+            <ul><li>Adversarial Robustness Toolbox (ART): generating adversarial attacks and testing defense mechanisms</li></ul>
+            <ul><li>Scikit-learn: general ML tasks and analysis</li></ul>
     </section>
     <section>
         <h2>Setup Intructions</h2>
