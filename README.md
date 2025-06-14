@@ -34,12 +34,12 @@
             The tools and models I plan to use:
         </p>
           <ul><li>Hugging Face Transformers (LLaVA): For explainability of robot decisions</li></ul>
-            <ul><li>Perspective API: trust-aware feedback</li></ul>
-            <ul><li>OpenAI Gym: RL-based simulation for adaptive robot control</li></ul>
-            <ul><li>Stable-Baselines3 (PPO, CPO): Baseline reinforcement learning models</li</ul>
             <ul><li>Adversarial Robustness Toolbox (ART): To simulate adversarial inputs and test defense methods</li></ul>
             <ul><li>Scikit-learn: For implementing and comparing machine learning-based detection methods</li></ul>
             <ul><li>Quantum Toolkit (Qiskit): Future integration for quantum-enhanced decision support</li></ul>
+            <ul><li>Perspective API: trust-aware feedback</li></ul>
+            <ul><li>OpenAI Gym: RL-based simulation for adaptive robot control</li></ul>
+            <ul><li>Stable-Baselines3 (PPO, CPO): Baseline reinforcement learning models</li</ul>
     </section>
     <section>
         <h2>Setup Intructions</h2>
