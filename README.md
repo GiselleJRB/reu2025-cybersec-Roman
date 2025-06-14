@@ -33,17 +33,20 @@
             <p>
             The tools and models I plan to use:
         </p>
-          <ul><li>Hugging Face: Modeling and testing generalization</li></ul>
+          <ul><li>Hugging Face Transformers (LLaVA): For explainability of robot decisions</li></ul>
             <ul><li>Perspective API: trust-aware feedback</li></ul>
-            <ul><li>OpenAI Gym: simulation environments for RL experiments</li></ul>
-            <ul><li>Adversarial Robustness Toolbox (ART): generating adversarial attacks and testing defense mechanisms</li></ul>
-            <ul><li>Scikit-learn: general ML tasks and analysis</li></ul>
+            <ul><li>OpenAI Gym: RL-based simulation for adaptive robot control</li></ul>
+            <ul><li>Stable-Baselines3 (PPO, CPO): Baseline reinforcement learning models</li</ul>
+            <ul><li>Adversarial Robustness Toolbox (ART): To simulate adversarial inputs and test defense methods</li></ul>
+            <ul><li>Scikit-learn: For implementing and comparing machine learning-based detection methods</li></ul>
+            <ul><li>Quantum Toolkit (Qiskit): Future integration for quantum-enhanced decision support</li></ul>
     </section>
     <section>
         <h2>Setup Intructions</h2>
-          <ul>
-            <li>TBH</li>
-        </ul>
+        <p>For running the notebooks:</p>
+          <ul><li>Install dependencies: pip install gymnasium stable-baselines3 matplotlib scikit-learn</li></ul>
+        <ul><li>Open any notebook in the notebooks/ folder in Jupyter or Google Colab</li></ul>
+        <ul><li>Outputs and screenshots will appear in the outputs/ folder after running</li></ul>
     </section>
 </body>
 </html>
