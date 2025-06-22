@@ -51,22 +51,11 @@
     <section>
         <h2>Progress Summary</h2>
         <ul>
-            <li>Task 1: Generated a synthetic knowledge graph with agents, tasks, and anomalies. Focused on modeling task allocation relationships for use in quantum optimization.</li>
-            <li>Task 2: Practiced DP problems (LIS, 0/1 Knapsack, Edit Distance) and linked them to robot sensor log analysis, trust score trends, and task prioritization.</li>
-            <li>Task 3: Used Gymnasium's FrozenLake-v1 to train a Q-learning agent. Evaluated performance with Q-table and analyzed how the robot learns in uncertain environments.</li>
-            <li>Task 4: Extracted a subgraph (3 agents and 3 tasks) and built a QUBO task assignment problem using Qiskit Optimization. Model structure confirmed, constraints encoded with slack variables.</li>
-            <li>Task 5–7: Continued literature review on graph anomaly detection (GAD) using GNNs and started reproducing one baseline. Integrated reflection into final report and HTML summary.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Key Insights and Challenges</h2>
-        <ul>
-            <li>AI2-THOR wasn't usable due to Linux dependencies, so fallback was Gym + PPO agents.</li>
-            <li>Graph was too large to visualize directly — had to isolate smaller subgraph for QUBO work.</li>
-            <li>Quantum QUBO model worked but wasn’t fully executed since actual quantum solver was not available (no QAOA run).</li>
-            <li>Trust-aware task assignment benefits from QUBO modeling under resource and security constraints.</li>
-            <li>DP problems helped understand sequence patterns in robot states or logs over time.</li>
-            <li>Used DOcplex and Qiskit to encode the problem — learned how to structure binary constraints and penalties into a solvable model.</li>
+            <li>Generated a synthetic knowledge graph with agents, tasks, and anomalies. Focused on modeling task allocation relationships for use in quantum optimization.</li>
+            <li>Practiced DP problems (LIS, 0/1 Knapsack, Edit Distance) and linked them to robot sensor log analysis, trust score trends, and task prioritization.</li>
+            <li>Used Gymnasium's FrozenLake-v1 to train a Q-learning agent. Evaluated performance with Q-table and analyzed how the robot learns in uncertain environments.</li>
+            <li>Extracted a subgraph (3 agents and 3 tasks) and built a QUBO task assignment problem using Qiskit Optimization.</li>
+            <li>Continued literature review on graph anomaly detection (GAD) using GNNs and started reproducing one baseline.</li>
         </ul>
     </section>
 </body>
