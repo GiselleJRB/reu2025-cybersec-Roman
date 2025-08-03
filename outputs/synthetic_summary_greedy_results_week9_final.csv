@@ -1,0 +1,2 @@
+method,run_id,final_trust,initial_trust_avg,delta_trust,delta_per_reward,trust_effort,trusturgency,avg_spoofed,avg_recovery,avg_coord_success,avg_violations,avg_distance,avg_bait,avg_exit_violations,avg_duplicates,reward_score,trust_weighted_coord,coalition_success
+Greedy,greedy_synth,0.296,0.739,-0.443,0.0,0.0,0.0,0.109,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
