@@ -1,0 +1,2 @@
+method,run_id,final_trust,initial_trust_avg,delta_trust,delta_per_reward,trust_effort,trusturgency,avg_spoofed,avg_recovery,avg_coord_success,avg_violations,avg_distance,avg_bait,avg_exit_violations,avg_duplicates,reward_score,trust_weighted_coord,coalition_success
+QUBO,qubo_synth,0.909,0.723,0.186,0.991,0.165,0.268,0.737,0.163,0.242,0.078,2.18,0.45,6.0,0.067,0.188,0.15,0.785
