@@ -1,0 +1,2 @@
+final_trust,initial_trust_avg,delta_trust,delta_per_reward,trust_effort,trusturgency,avg_spoofed,avg_recovery,avg_coord_success,avg_violations,avg_distance,avg_bait,avg_exit_violations,avg_duplicates,reward_score,trust_weighted_coord,coalition_success
+0.5524965714285714,0.7283428571428572,-0.17584628571428568,-175846.2857142857,0.0,0.002670095238095238,0.6655619047619048,0.0,0.009999999999999998,0.0,0.0,0.020571428571428574,0.0,0.0059284761904761915,0.0,0.0,
