@@ -7,7 +7,7 @@
     <section>
         <h2>Project Title</h2>
         <p>
-            Securing Dynamic Robotic Behavior in Unpredicted Environments: Enhancing Trust through Adaptive Learning and Cyber Defense
+            Trust-Aware Task Allocation Using Quantum Optimization Under Adversarial Attacks in Multi-Agent Robotic Systems
         </p>
     </section>
     <section>
@@ -17,62 +17,65 @@
         </ul>
     </section>
     <section>
-        <h2>Mentor Name</h2>
+        <h2>Mentors</h2>
         <ul>
-            <li>Dr. Yugyung Lee</li>
+            <li>Dr. Yugyung Lee (University of Missouri–Kansas City)</li>
+            <li>Dr. Dianxiang Xu (University of Missouri–Kansas City)</li>
+            <li>Luke Miller (University of Missouri–Kansas City)</li>
+            <li>Dr. Duy Ho (California State University, Fullerton)</li>
         </ul>
     </section>
     <section>
         <h2>Project Summary</h2>
         <p>
-            As autonomous robots continue to operate in complex and unpredictable environments, their ability to adapt in real-time scenarios is important. This project aims to optimize robotic coordination by developing adaptive learning methods and robust cybersecurity measures. By modeling adversarial attacks and defense countermeasures, the work focuses on maintaining trust-aware, reliable task allocation even under cyber-physical threats.
+            This project investigates how adversarial attacks affect coordination and trust in multi-agent robotic systems 
+            deployed in post-disaster hospital environments. We modeled attacks such as spoofing, misinformation, urgency decay, 
+            bait tasks, and communication failures. To defend against these threats, we integrated trust modeling, curing 
+            mechanisms, urgency-weighted recovery, and team-task synergy. 
+        </p>
+        <p>
+            The task allocation problem was formulated as a Quadratic Unconstrained Binary Optimization (QUBO) model and solved 
+            using the NEAL sampler. We compared performance against Greedy and MILP baselines on both synthetic hospital 
+            simulations and MRTA-100 benchmark datasets. Results showed that QUBO, combined with trust-aware defenses, 
+            preserved agent trust and coordination, while Greedy solvers collapsed under adversarial conditions.
         </p>
     </section>
     <section>
         <h2>Tools and Models</h2>
         <ul>
-            <li>Hugging Face Transformers (LLaVA): For explainability of robot decisions</li>
-            <li>Adversarial Robustness Toolbox (ART): To simulate adversarial inputs and test defense methods</li>
-            <li>Scikit-learn: For implementing and comparing machine learning-based detection methods</li>
-            <li>Quantum Toolkit (Qiskit): Future integration for quantum-enhanced decision support</li>
-            <li>Perspective API: Trust-aware feedback</li>
-            <li>OpenAI Gym / Gymnasium: RL-based simulation for adaptive robot control</li>
-            <li>Stable-Baselines3 (PPO, CPO): Baseline reinforcement learning models</li>
-            <li><b>DOcplex:</b> Used for formulating and exporting QUBO models in optimization tasks</li>
-            <li><b>NetworkX:</b> Used to create and manipulate the synthetic knowledge graph</li>
-            <li><b>Matplotlib:</b> For plotting success rates and learning trends from RL agents</li>
+            <li><b>Python</b> (simulation and modeling)</li>
+            <li><b>NetworkX</b>: Synthetic hospital graph construction</li>
+            <li><b>NumPy / Pandas</b>: Trust matrices, cost functions, and analysis</li>
+            <li><b>Matplotlib</b>: Visualizations (trust heatmaps, trust over time, outcome trends)</li>
+            <li><b>D-Wave Ocean SDK (NEAL)</b>: QUBO solver using simulated annealing</li>
         </ul>
     </section>
     <section>
         <h2>Setup Instructions</h2>
-        <p>For running the notebooks:</p>
+        <p>To run the simulation:</p>
         <ul>
-            <li>Install dependencies: <code>pip install gymnasium stable-baselines3 matplotlib scikit-learn qiskit</code></li>
-            <li>Open any notebook in the <code>notebooks/</code> folder in Jupyter or Google Colab</li>
-            <li>Outputs and screenshots will appear in the <code>outputs/</code> folder after running</li>
+            <li>Install dependencies: 
+                <code>pip install numpy pandas matplotlib networkx dimod neal</code>
+            </li>
+            <li>Run the simulation scripts in the <code>src/</code> folder.</li>
+            <li>Simulation outputs (CSV metrics + plots) will appear in the <code>outputs/</code> folder.</li>
         </ul>
     </section>
     <section>
         <h2>Progress Summary</h2>
-        <h3>Prior Weeks</h3>
+        <h3>Methods</h3>
         <ul>
-            <li>Generated a synthetic knowledge graph with agents, tasks, and anomalies. Focused on modeling task allocation relationships for use in quantum optimization.</li>
-            <li>Practiced DP problems (LIS, 0/1 Knapsack, Edit Distance) and linked them to robot sensor log analysis, trust score trends, and task prioritization.</li>
-            <li>Used Gymnasium's FrozenLake-v1 to train a Q-learning agent. Evaluated performance with Q-table and analyzed how the robot learns in uncertain environments.</li>
-            <li>Extracted a subgraph (3 agents and 3 tasks) and built a QUBO task assignment problem using Qiskit Optimization.</li>
-            <li>Continued literature review on graph anomaly detection (GAD) using GNNs and started reproducing one baseline.</li>
+            <li>Simulated post-disaster hospital environments with adversarial attacks (spoofing, comms loss, noise, bait tasks, precedence violations).</li>
+            <li>Modeled dynamic trust degradation and recovery across 100+ simulation rounds.</li>
+            <li>Formulated task allocation as QUBO, solved with NEAL simulated annealing.</li>
+            <li>Compared QUBO against Greedy and MILP baselines on both synthetic and benchmark MRTA-100 environments.</li>
         </ul>
-        <h3>Week 7</h3>
+        <h3>Results</h3>
         <ul>
-            <li>Simulated adversarial attacks that degrade trust matrices, modeling GPS spoofing and communication interference in post-disaster environments.</li>
-            <li>Implemented defense countermeasures that partially restore trust based on agent success and failure feedback.</li>
-            <li>Formulated task assignment as a Quadratic Unconstrained Binary Optimization (QUBO) problem with trust-based reward terms and hard assignment constraints.</li>
-            <li>Used NEAL simulated annealing sampler to optimize task assignments under degraded trust conditions.</li>
-            <li>Generated visualizations including trust heatmaps (baseline, attack, defense), QUBO assignment overlays, average fleet trust over time, trust distributions, and mission outcome trends.</li>
-            <li>Evaluated system resilience by analyzing trust score dynamics, success and failure counts, and compromised agent trends across 1000 simulation rounds.</li>
+            <li>QUBO preserved trust and coordination under adversarial conditions.</li>
+            <li>Greedy solvers collapsed when exposed to spoofing and urgency decay.</li>
+            <li>Visualizations confirmed QUBO’s resilience: higher trust recovery, coordination success, and robustness across rounds.</li>
         </ul>
     </section>
 </body>
 </html>
-
-
